@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Sayang 🤍</title>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(180deg, #fff6f9, #ffe9f3, #fff);
+        color: #4a4a4a;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .card {
+        background: #fff;
+        max-width: 600px;
+        padding: 30px 40px;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: justify;
+        position: relative;
+        animation: fadeIn 1.2s ease;
+    }
+
+    .card::before {
+        content: "💌";
+        position: absolute;
+        font-size: 40px;
+        top: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    h1 {
+        text-align: center;
+        color: #ff8fb1;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    p {
+        line-height: 1.7;
+        margin-bottom: 18px;
+        font-size: 16px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 25px;
+        font-style: italic;
+        color: #777;
+        font-size: 14px;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .heart {
+        color: #ff6f91;
+        animation: heartbeat 1.2s infinite;
+    }
+
+    @keyframes heartbeat {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+    }
+
+    audio {
+        display: none;
+    }
+</style>
+</head>
+<body>
+    <!-- Musik lembut di background -->
+    <audio autoplay loop>
+        <source src="putih.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="card">
+        <h1>Happy Birthday yaa sayang 🤍</h1>
+        <p>hari ini tuh hari spesial banget, bukan cuma karena kamu ulang tahun, tapi juga karena dunia dikasih kesempatan lagi buat punya kamu di dalamnya. 
+        makasih udah mau bertahan sejauh ini, udah milih buat tetap hidup, tetap berjuang, dan tetap jadi versi kamu yang kuat dan bijaksana kayak sekarang. 
+        aku bener-bener bangga punya kamu.</p>
+
+        <p>kamu tuh cowok yang gak cuma baik, tapi juga sabar, pengertian, dan selalu punya cara buat nenangin aku walaupun kadang kamu sendiri lagi capek. 
+        aku bersyukur banget bisa jadi orang yang nemenin kamu sejauh ini. 
+        makasih ya udah mau jadi pasangan aku, udah mau sabar sama semua kekuranganku, dan udah mau terus ada di samping aku.</p>
+
+        <p>semoga di umur kamu yang sekarang, semua doa baik dateng ke hidup kamu — rezeki lancar, hati tenang, dan
+        semua hal yang kamu pengen satu-satu bisa tercapai. 
+        aku juga berharap kamu selalu dikelilingi orang-orang yang tulus, yang bikin kamu ngerasa dihargain dan disayang.</p>
+
+        <p>buat kita, aku cuma pengen hubungan ini makin kuat, makin dewasa, makin banyak tawa daripada marahnya, dan makin saling ngerti. 
+        aku tau kadang kita gak sempurna, tapi aku yakin kalau kita terus sama-sama belajar, semua bisa dilalui bareng.</p>
+
+        <p>dan kalo 10 tahun dari sekarang… aku pengen masih bisa ngucapin ulang tahun ke kamu, tapi bukan lewat chat lagi — mungkin sambil liat kamu langsung, 
+        di tempat yang udah kita bangun bareng. entah itu rumah kecil, atau cuma ruang sederhana yang penuh tawa kita. entah di mana, entah kayak gimana, 
+        tapi semoga masih bisa liat senyum kamu tiap pagi dan bilang, “kita udah sejauh ini ya.” <span class="heart">🤍</span></p>
+
+        <p>karena buat aku, kebahagiaan gak selalu soal mewah atau besar — cukup ada kamu, aku udah ngerasa punya segalanya.</p>
+
+        <div class="footer">– dari aku, yang selalu bangga punya kamu 💗</div>
+    </div>
+</body>
+</html>
